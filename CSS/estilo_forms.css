@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+.um{
+    text-align: center;
+    text-shadow:  2px 2px 2px #8a8383;
+    background-color: #5da4b8;
+}
+.dois{
+    text-align: center;
+    text-shadow: 3px 3px 3px #685353;
+    background-color: #5cceee;
+}
+.tres{
+    align-items: center;
+    text-align: center;
+    text-shadow: 3px 3px 3px #8a8383;;
+}
+header h1{
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+fieldset {
+    padding: 1%;
+    border-radius: 10px;
+    background: #5cceee;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 3px rgba(0,0,0, .1);
+    margin-top: 2%;
+}
+
+legend {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #eee;
+    padding: .5%;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+label, input, select {
+ display: block; 
+ box-sizing: border-box;
+ font-family: "Bebas Neue", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ padding: 5px;
+}
+
+
+input, select {
+    width: 100%;
+    border: 1px outset;
+    padding: 10px;
+}
+
+input:focus{
+    background: lightyellow;
+    border: 1px solid yellow;
+    outline: none;
+}
+
+.label-50{
+    float: left;
+    width: 50%;
+}
+
+.center{
+    align-items: center;
+    padding: 2%;
+}
+
+button{
+    margin-left: 800px;
+    background-color: #5cceee;
+    border: 3px #17191a;
+    border-color: #17191a;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    width: 250px;
+
+    margin-bottom: 5px;
+}
+
+.center{
+    align-items: center;
+}
+
+.inicio{
+    background-color: #5cceee;
+    border: 3px #17191a;
+    border-color: #17191a;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 3px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+button span {
+    background-color: rgb(5, 6, 45);
+    padding: 16px 24px;
+    border-radius: 6px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+   }
+
+button:hover { 
+    outline: 0;
+    background: none; }
+
+button:active { 
+    outline: 0;
+    transform: scale(0.9);
+}
+
+
+#lista-alunos, #lista-livros{
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+}
+
+#lista-alunos table, tr {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}
+
+#lista_livros{
+    margin: 0 auto;
+    width: 50%;
+    padding: 5px;
+}
+
+#lista-livros table, tr {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #000;
+}

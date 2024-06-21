@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport">
+    <link rel="stylesheet" href="CSS/estilo_forms.css">
+    <link rel="stylesheet" href="CSS/estilo_forms.css">
+    <link type="text/css" rel="stylesheet" href="CSS/estilo.css">
+    <script src="javascript/comportamentos.js" type="text/javascript"></script>
+    <title>Biblioteca Fatec</title>
+</head>
+<body>
+    <header>
+        <div class="um">
+            <h1>Biblioteca Fatec</h1>
+        </div>
+    </header>
+    <main>
+        <form id="formulario-cadastro-livro">
+            <fieldset>
+                <legend>Informações Sobre o livro</legend>
+                <form id="form-cadastro-livro" autocomplete="nope"></form>
+                <label>
+                    Titulo: <input type="text" name="txt_livro" placeholder="Nome do Livro" required/>
+                </label>
+                <label>
+                    Autor: <input type="text" name="txt_autor" placeholder="Nome do Autor" required/>
+                </label>
+                <label>
+                    Data de Lançamento: <input type="date" name="txt_date_lanc" required/>
+                </label>
+                <label>
+                    Editora: <input type="text" name="txt_editora" placeholder="Nome da Editora" required/>
+                </label>
+            </fieldset>
+                <p class="center" >
+                    <a  class="inicio" href="index.html" type="submit">Início</a>
+                    <div class="center"> <button type="submit">Salvar</button>
+                        <button id="esconde-form-cadastro" type="submit">Cancelar</button>
+                                       </div> 
+                </p>
+        </form>
+    </main>
+</div> 
+</body>
+</html>
